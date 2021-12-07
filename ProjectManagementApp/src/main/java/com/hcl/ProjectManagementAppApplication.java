@@ -13,7 +13,7 @@ public class ProjectManagementAppApplication {
         return new BCryptPasswordEncoder();
     }
 
-    public static Logger myLog = Logger.getLogger(ProjectManagementAppApplication.class.getName());
+    public static final Logger myLog = Logger.getLogger(ProjectManagementAppApplication.class.getName());
 
     public static void main(String[] args) {
         myLog.debug("Debug");
