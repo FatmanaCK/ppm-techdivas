@@ -10,6 +10,7 @@ import com.hcl.repositories.ProjectRepository;
 import com.hcl.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import static com.hcl.ProjectManagementAppApplication.myLog;
 
 @Service
 public class ProjectService {
@@ -55,10 +56,11 @@ public class ProjectService {
             } else //when updating the project, so that backlog isn't null
                 project.setBacklog(backlogRepository.findByProjectIdentifier(project.getProjectIdentifier().toUpperCase()));
 
-
+             myLog.info("new project saved");
             return projectRepository.save(project);
 
         } catch (Exception e) {
+             myLog.error("Project ID '" + project.getProjectIdentifier().toUpperCase() + "' already exists");
             throw new ProjectIdException("Project ID '" + project.getProjectIdentifier().toUpperCase() + "' already exists");
         }
     }
@@ -66,24 +68,27 @@ public class ProjectService {
     public Project findProjectByIdentifier(String projectId, String username) {
         Project project = projectRepository.findByProjectIdentifier(projectId.toUpperCase());
 
-        if (project == null)
-            throw new ProjectIdException("Project ID '" + projectId + "' does not exist");
+        if (project == null){
+            myLog.info("Project ID '" + projectId + "' does not exist");
+            throw new ProjectIdException("Project ID '" + projectId + "' does not exist");}
 
-        if(!project.getProjectLeader().equals(username))
-            throw new ProjectNotFoundException("Project not found in your account!");
+        if(!project.getProjectLeader().equals(username)){
+            
+            throw new ProjectNotFoundException("Project not found in your account!");}
 
-
+         myLog.info("Project id " +projectId +" found");
         return project;
 
     }
 
     public Iterable<Project> findAllProjects(String username) {
         //Iterable returns a JSON object that has all the objects within the list
+         myLog.info("project belongs to " +username);
         return projectRepository.findAllByProjectLeader(username);
     }
 
     public void deleteProjectByIdentifier(String projectId, String username) {
-
+        myLog.debug("projectID " + projectId + "of user " +username + " deleted!" );
         projectRepository.delete(findProjectByIdentifier(projectId, username));
     }
 
