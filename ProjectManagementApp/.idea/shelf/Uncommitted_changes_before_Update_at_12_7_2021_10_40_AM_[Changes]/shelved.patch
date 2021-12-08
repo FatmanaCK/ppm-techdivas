@@ -1,0 +1,271 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5cad7b3a-ca11-45fa-8db6-d7d252ac9668\" name=\"Changes\" comment=\"Have extended the service tests for User, and added tests for Project class as well...confirming they all pass!\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"21mKLtEugGsem54yRl3P3Imkrq9\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"format.on.save\" value=\"true\" />\r\n    <property name=\"optimize.imports.on.save\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"actions.on.save\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.ProjectManagementAppApplicationTests\">\r\n    <configuration name=\"ProjectManagementAppApplicationTests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProjectManagementApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.hcl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.hcl\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.hcl.ProjectManagementAppApplicationTests\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProjectTaskServiceTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProjectManagementApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.hcl.serviceTests.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.hcl.serviceTests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.hcl.serviceTests.ProjectTaskServiceTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProjectTaskServiceTest.testFindBacklogById\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProjectManagementApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.hcl.serviceTests.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.hcl.serviceTests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.hcl.serviceTests.ProjectTaskServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testFindBacklogById\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProjectTaskServiceTest.testFindPTByProjectSequence\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProjectManagementApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.hcl.serviceTests.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.hcl.serviceTests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.hcl.serviceTests.ProjectTaskServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testFindPTByProjectSequence\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProjectTaskServiceTest.testFindPTByProjectSequence2\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProjectManagementApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.hcl.serviceTests.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.hcl.serviceTests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.hcl.serviceTests.ProjectTaskServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testFindPTByProjectSequence2\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProjectTaskServiceTest.testUpdateByProjectSequence\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ProjectManagementApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.hcl.serviceTests.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.hcl.serviceTests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.hcl.serviceTests.ProjectTaskServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testUpdateByProjectSequence\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.ProjectManagementAppApplicationTests\" />\r\n        <item itemvalue=\"JUnit.ProjectTaskServiceTest.testFindPTByProjectSequence2\" />\r\n        <item itemvalue=\"JUnit.ProjectTaskServiceTest.testUpdateByProjectSequence\" />\r\n        <item itemvalue=\"JUnit.ProjectTaskServiceTest.testFindPTByProjectSequence\" />\r\n        <item itemvalue=\"JUnit.ProjectTaskServiceTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5cad7b3a-ca11-45fa-8db6-d7d252ac9668\" name=\"Changes\" comment=\"Have extended the service tests for User, and added tests for Project class as well...confirming they all pass!\" />\r\n      <created>1638540775483</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1638540775483</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d314eb61ebf1c69f77e9521393fd47c814c3bf00)
++++ b/.idea/workspace.xml	(date 1638895215962)
+@@ -4,7 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5cad7b3a-ca11-45fa-8db6-d7d252ac9668" name="Changes" comment="Have extended the service tests for User, and added tests for Project class as well...confirming they all pass!" />
++    <list default="true" id="5cad7b3a-ca11-45fa-8db6-d7d252ac9668" name="Changes" comment="Have extended the service tests for User, and added tests for Project class as well...confirming they all pass!">
++      <change afterPath="$PROJECT_DIR$/../.idea/PPMproject.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/hcl/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hcl/web/UserController.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hcl/serviceTests/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hcl/serviceTests/UserServiceTest.class" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -19,6 +30,7 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="GitSEFilterConfiguration">
+     <file-type-list>
+@@ -27,6 +39,18 @@
+       <filtered-out-file-type name="TAG" />
+       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+     </file-type-list>
++  </component>
++  <component name="JpbToolWindowState">
++    <option name="myId2FirstActivated">
++      <map>
++        <entry key="JPA Structure" value="true" />
++      </map>
++    </option>
++    <option name="myId2Visible">
++      <map>
++        <entry key="JPA Structure" value="false" />
++      </map>
++    </option>
+   </component>
+   <component name="ProjectId" id="21mKLtEugGsem54yRl3P3Imkrq9" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -37,15 +61,18 @@
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="format.on.save" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="optimize.imports.on.save" value="true" />
+     <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.2" />
+     <property name="settings.editor.selected.configurable" value="actions.on.save" />
+   </component>
+-  <component name="RunManager" selected="JUnit.ProjectManagementAppApplicationTests">
+-    <configuration name="ProjectManagementAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Application.ProjectManagementAppApplication">
++    <configuration name="ProjectManagementAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.hcl.ProjectManagementAppApplication" />
+       <module name="ProjectManagementApp" />
+       <extension name="coverage">
+         <pattern>
+@@ -53,44 +80,25 @@
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.hcl" />
+-      <option name="MAIN_CLASS_NAME" value="com.hcl.ProjectManagementAppApplicationTests" />
+-      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ProjectTaskServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="ProjectManagementAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ProjectManagementApp" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.hcl.serviceTests.*" />
++          <option name="PATTERN" value="com.hcl.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.hcl.serviceTests" />
+-      <option name="MAIN_CLASS_NAME" value="com.hcl.serviceTests.ProjectTaskServiceTest" />
++      <option name="PACKAGE_NAME" value="com.hcl" />
++      <option name="MAIN_CLASS_NAME" value="com.hcl.ProjectManagementAppApplicationTests" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ProjectTaskServiceTest.testFindBacklogById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="ProjectManagementApp" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="com.hcl.serviceTests.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="com.hcl.serviceTests" />
+-      <option name="MAIN_CLASS_NAME" value="com.hcl.serviceTests.ProjectTaskServiceTest" />
+-      <option name="METHOD_NAME" value="testFindBacklogById" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <configuration name="ProjectTaskServiceTest.testFindPTByProjectSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="ProjectManagementApp" />
+       <extension name="coverage">
+@@ -141,11 +149,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.ProjectManagementAppApplication" />
+         <item itemvalue="JUnit.ProjectManagementAppApplicationTests" />
+         <item itemvalue="JUnit.ProjectTaskServiceTest.testFindPTByProjectSequence2" />
+         <item itemvalue="JUnit.ProjectTaskServiceTest.testUpdateByProjectSequence" />
+         <item itemvalue="JUnit.ProjectTaskServiceTest.testFindPTByProjectSequence" />
+-        <item itemvalue="JUnit.ProjectTaskServiceTest" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.jpa.show-sql=true\r\nspring.datasource.url=jdbc:mysql://localhost:3306/capstone_ppmt\r\nspring.datasource.username=root\r\nspring.datasource.password=your_pwd\r\n#Using the right database platform is extremly important on Spring Boot 2.0\r\nspring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect\r\n#CONFLICTS WITH HEROKU from local host\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL57Dialect\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.properties.hibernate.enable_lazy_load_no_trans=true\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/src/main/resources/application.properties b/src/main/resources/application.properties
+--- a/src/main/resources/application.properties	(revision d314eb61ebf1c69f77e9521393fd47c814c3bf00)
++++ b/src/main/resources/application.properties	(date 1638802370475)
+@@ -1,7 +1,7 @@
+ spring.jpa.show-sql=true
+-spring.datasource.url=jdbc:mysql://localhost:3306/capstone_ppmt
++spring.datasource.url = jdbc:mysql://localhost:3306/capstoneproject
+ spring.datasource.username=root
+-spring.datasource.password=your_pwd
++spring.datasource.password=
+ #Using the right database platform is extremly important on Spring Boot 2.0
+ spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+ #CONFLICTS WITH HEROKU from local host
+Index: ../.idea/PPMproject.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/PPMproject.iml b/../.idea/PPMproject.iml
+new file mode 100644
+--- /dev/null	(date 1638801916910)
++++ b/../.idea/PPMproject.iml	(date 1638801916910)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/jpa-buddy.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jpa-buddy.xml b/.idea/jpa-buddy.xml
+new file mode 100644
+--- /dev/null	(date 1638802614383)
++++ b/.idea/jpa-buddy.xml	(date 1638802614383)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JpaBuddyIdeaProjectConfig">
++    <option name="defaultUnitInitialized" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: target/classes/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.jpa.show-sql=true\r\nspring.datasource.url=jdbc:mysql://localhost:3306/capstone_ppmt\r\nspring.datasource.username=root\r\nspring.datasource.password=WAVAWave08\r\n#Using the right database platform is extremly important on Spring Boot 2.0\r\nspring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect\r\n#CONFLICTS WITH HEROKU from local host\r\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL57Dialect\r\nspring.jpa.hibernate.ddl-auto=update\r\nspring.jpa.properties.hibernate.enable_lazy_load_no_trans=true\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/target/classes/application.properties b/target/classes/application.properties
+--- a/target/classes/application.properties	(revision d314eb61ebf1c69f77e9521393fd47c814c3bf00)
++++ b/target/classes/application.properties	(date 1638802622146)
+@@ -1,7 +1,7 @@
+ spring.jpa.show-sql=true
+-spring.datasource.url=jdbc:mysql://localhost:3306/capstone_ppmt
++spring.datasource.url = jdbc:mysql://localhost:3306/capstoneproject
+ spring.datasource.username=root
+-spring.datasource.password=WAVAWave08
++spring.datasource.password=
+ #Using the right database platform is extremly important on Spring Boot 2.0
+ spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+ #CONFLICTS WITH HEROKU from local host
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+--- a/.idea/runConfigurations.xml	(revision d314eb61ebf1c69f77e9521393fd47c814c3bf00)
++++ b/.idea/runConfigurations.xml	(date 1638802614405)
+@@ -1,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision d314eb61ebf1c69f77e9521393fd47c814c3bf00)
++++ b/.idea/misc.xml	(date 1638802614347)
+@@ -7,5 +7,5 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="17" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision d314eb61ebf1c69f77e9521393fd47c814c3bf00)
++++ b/.idea/vcs.xml	(date 1638802614424)
+@@ -1,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
